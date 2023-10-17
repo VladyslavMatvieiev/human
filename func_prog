@@ -1,0 +1,14 @@
+case class Human(
+  name: String,
+  age: Int,
+  birthDate: String,
+  height: Int,
+  weight: Int,
+  country: String,
+  region: String
+)
+
+object Main extends App {
+  val namePeople = Human("Vlad", 18, "07.08.2005", 184, 73, "Ukraine", "Kherson")
+  println(namePeople)
+}
